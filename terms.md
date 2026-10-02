@@ -4,7 +4,7 @@ title: GT-PriceAlert Terms of Service
 
 # GT-PriceAlert Terms of Service
 
-**Effective date:** 1 October 2026
+**Effective date:** 2 October 2026
 **Operator and contact:** Huttie (Discord: `Huttie`)
 
 By adding or using GT-PriceAlert ("the bot"), you agree to these terms. If you don't agree, please don't use the bot.
@@ -28,7 +28,7 @@ The bot is provided **"as is", without any warranty.** Its alerts, stock calcula
 
 ## What the bot can do in your account
 
-The bot only reads your company data, except for one thing: with an Extended API key, it changes your planet wishlists when you run `/restock` or press a restock button. It cannot trade, accept or cancel contracts, move ships or use your credits.
+The bot only reads your company data, except for one thing: with an Extended API key, it changes your planet wishlists when you run `/restock` or `/repair`, or press a restock or repair button. It cannot trade, accept or cancel contracts, move ships or use your credits.
 
 ## Ending your use
 
