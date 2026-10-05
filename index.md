@@ -8,5 +8,6 @@ A Discord bot for Galactic Tycoons: price, low-stock, repair, ship-arrival, cont
 
 - [Terms of Service](terms)
 - [Privacy Policy](privacy)
+- [Changelog](changelog)
 
 Contact: **Huttie** on Discord.

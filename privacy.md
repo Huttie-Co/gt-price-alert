@@ -4,7 +4,7 @@ title: GT-PriceAlert Privacy Policy
 
 # GT-PriceAlert Privacy Policy
 
-**Effective date:** 2 October 2026
+**Effective date:** 5 October 2026
 **Operator and contact:** Huttie (Discord: `Huttie`)
 
 GT-PriceAlert is a free, hobby Discord bot for the game Galactic Tycoons. It is run by one person and is not affiliated with Discord, Galactic Tycoons or its developer. This policy explains what the bot stores, why, and how to have it deleted.
@@ -14,7 +14,7 @@ GT-PriceAlert is a free, hobby Discord bot for the game Galactic Tycoons. It is 
 When you register with `/register`, the bot saves the following, linked to your Discord user ID:
 
 - **Your Galactic Tycoons API key**, and its access level (Limited or Extended).
-- **Your bot settings:** alert threshold, rebuy target, materials you added or removed with `/track`, low-stock and repair alert settings, mute status, and whether ship arrival, contract and research alerts are on.
+- **Your bot settings:** your global alert threshold and any per-material alert rules you set with `/threshold material` (a percentage, or the prices you chose), rebuy target, materials you added or removed with `/track`, low-stock and repair alert settings, whether price, ship arrival, contract and research alerts are on, your alert style (detailed or compact), and mute status.
 - **Alert history needed to avoid repeat alerts:** which price, low-stock, repair and ship-arrival alerts have already been sent (including the IDs of buildings already reported for repair), a snapshot of your open trade contracts (contract IDs, materials, quantities, prices, status and the other company's name), and your technology levels at the last check, so finished research can be spotted.
 
 Separately, for bases that produce something they also use, the bot keeps **running averages of how much of each material the base makes and uses per hour**. These are stored by base ID and material, together with when they were last updated. They aren't stored with your Discord ID or API key, but they do describe your bases' production.
