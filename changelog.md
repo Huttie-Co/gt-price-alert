@@ -6,6 +6,17 @@ title: GT-PriceAlert Changelog
 
 Versions follow `major.minor.patch`: a new **major** version means something that worked before has changed (e.g. a command was renamed), a **minor** version adds features, and a **patch** fixes bugs.
 
+## 2.2.0 — 7 October 2026
+
+- **New:** `/listings` — your exchange listings per product, next to the cheapest price other sellers are asking: 🟢 you're cheapest, 🟡 tied, or 🔴 undercut (by how much, with the Federal Reserve marked). Also shows how much is left and sold, how much others have listed below your price, the average price, and the total value of your listings. Undercut products are listed first.
+
+## 2.1.0 — 7 October 2026
+
+- **New:** `/auctionalert on|off` — DMs for the new Executive Auction House: when you're outbid (bid refunded), win an auction (unused bid refunded), an executive you listed sells, and when a new executive joins your roster. Checked every 30 minutes. The game's API has no auction endpoints yet, so the bot reads these from your cash history and roster: amounts and companies are shown, executive names only for new arrivals.
+- **New:** price alerts show 30-day price history: the range of daily average prices, and a note like "lowest in 12 days" when the current price beats every recent day.
+- `/alertstyle` has a new *Auctions* type.
+- Privacy Policy updated.
+
 ## 2.0.0 — 5 October 2026
 
 **⚠️ Breaking change:** `/threshold percent:10` has been replaced by `/threshold global percent:10`.
