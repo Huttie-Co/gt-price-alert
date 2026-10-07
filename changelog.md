@@ -6,6 +6,12 @@ title: GT-PriceAlert Changelog
 
 Versions follow `major.minor.patch`: a new **major** version means something that worked before has changed (e.g. a command was renamed), a **minor** version adds features, and a **patch** fixes bugs.
 
+## 2.3.0 — 7 October 2026
+
+- **New:** `/listingalert on|off|status` — a DM when one of your exchange listings is meaningfully undercut. To avoid spam it only counts when someone is at least 2% cheaper **and** others have listed at least 10% of your remaining amount below your price (both adjustable). You get one DM per undercut, and another only if the price keeps dropping; it resets once you're cheapest or tied again. Checked every 20 minutes, grouped into one DM.
+- `/alertstyle` has a new *Listings* type.
+- Privacy Policy updated.
+
 ## 2.2.0 — 7 October 2026
 
 - **New:** `/listings` — your exchange listings per product, next to the cheapest price other sellers are asking: 🟢 you're cheapest, 🟡 tied, or 🔴 undercut (by how much, with the Federal Reserve marked). Also shows how much is left and sold, how much others have listed below your price, the average price, and the total value of your listings. Undercut products are listed first.
