@@ -6,6 +6,19 @@ title: GT-PriceAlert Changelog
 
 Versions follow `major.minor.patch`: a new **major** version means something that worked before has changed (e.g. a command was renamed), a **minor** version adds features, and a **patch** fixes bugs.
 
+## 3.0.0 — 8 October 2026
+
+**⚠️ Breaking change:** `/repair` is now `/repair wishlist`, with the same options (`base`, `percent`, `duration`).
+
+- **New:** `/repair status` — an overview of your buildings' condition per base, worst first: 🔴 needs repair, 🟡 will within 3 days at its current wear, 🟢 fine. Shows the output each base is running at and the estimated cost to repair, with a Repair button per base. "Needs repair" follows your `/repairalert` threshold (or 80%), or pick your own with `percent`. Works with a Limited key.
+- Terms and Privacy Policy updated for the new command name.
+
+## 2.3.1 — 8 October 2026
+
+- **Fixed:** `/auctionalert` never sent auction DMs (outbid, won, sold). The bot misread the game's cash history as empty, so it never saw any auction activity. New-executive DMs weren't affected. If you already had auction alerts on, the first check after this update reports auction activity from the last 24 hours, so sales you missed still get a DM.
+- A changed or unexpected reply from the game's API is now logged as an error instead of quietly counting as "nothing new".
+- Privacy Policy updated.
+
 ## 2.3.0 — 7 October 2026
 
 - **New:** `/listingalert on|off|status` — a DM when one of your exchange listings is meaningfully undercut. To avoid spam it only counts when someone is at least 2% cheaper **and** others have listed at least 10% of your remaining amount below your price (both adjustable). You get one DM per undercut, and another only if the price keeps dropping; it resets once you're cheapest or tied again. Checked every 20 minutes, grouped into one DM.
