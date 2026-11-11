@@ -4,7 +4,7 @@ title: GT-PriceAlert Privacy Policy
 
 # GT-PriceAlert Privacy Policy
 
-**Effective date:** 8 October 2026
+**Effective date:** 10 November 2026
 **Operator and contact:** Huttie (Discord: `Huttie`)
 
 GT-PriceAlert is a free, hobby Discord bot for the game Galactic Tycoons. It is run by one person and is not affiliated with Discord, Galactic Tycoons or its developer. This policy explains what the bot stores, why, and how to have it deleted.
@@ -27,7 +27,7 @@ The bot does **not** store your Discord messages, your in-game password, or paym
 
 Using your API key, the bot reads your company's data from the official Galactic Tycoons API: company details, technology levels, bases, buildings and their condition, warehouses and stock, production, workforce, ships and their cargo, wishlists, trade contracts, and your exchange listings. If auction alerts are on, it also reads your cash history (your exchange, contract and auction transactions) and your executive roster. It also reads public exchange prices, order books, daily price history and game data. This information is used to work out your alerts and command replies. Apart from the items listed above, it is not kept after each check.
 
-**Access level used:** a Limited key is enough for everything except wishlist changes. With an Extended key, the bot **only** changes your planet wishlists, and only when you run `/restock` or `/repair wishlist`, or press a restock or repair button. It never accepts, creates or cancels contracts, moves ships, trades, or touches your credits. The Galactic Tycoons API does not allow it to.
+**Access level used:** a Limited key is enough for everything except wishlist changes. With an Extended key, the bot **only** changes your planet wishlists, and only when you run `/restock`, `/repair wishlist` or `/research wishlist`, or press a restock or repair button. It never accepts, creates or cancels contracts, moves ships, trades, or touches your credits. The Galactic Tycoons API does not allow it to.
 
 ## Why the bot uses this data
 
@@ -43,7 +43,7 @@ Your data is **not sold, and not shared with anyone for advertising or analytics
 
 ## How it is stored and protected
 
-Data is stored in files on a private server that only the operator can access, using SSH key login. API keys are stored **unencrypted**. To limit the risk, use a **Limited** key unless you need `/restock` or `/repair wishlist`. You can revoke your key in-game at any time under **Settings → API Keys**, which immediately stops the bot from accessing your account.
+Data is stored in files on a private server that only the operator can access, using SSH key login. API keys are stored **unencrypted**. To limit the risk, use a **Limited** key unless you need `/restock`, `/repair wishlist` or `/research wishlist`. You can revoke your key in-game at any time under **Settings → API Keys**, which immediately stops the bot from accessing your account.
 
 The server also keeps technical logs (for example error messages, which may include your Discord user ID). Logs are kept for up to 30 days.
 

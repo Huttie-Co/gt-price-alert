@@ -6,6 +6,11 @@ title: GT-PriceAlert Changelog
 
 Versions follow `major.minor.patch`: a new **major** version means something that worked before has changed (e.g. a command was renamed), a **minor** version adds features, and a **patch** fixes bugs.
 
+## 3.1.0 — 10 November 2026
+
+- **New:** `/research wishlist` — pick a technology, and the research data for its next level goes on your HQ planet's wishlist, minus what's already at your HQ or on its way. If a research is running, pick it in `researching`: the game counts it as finished when pricing the next one. Shows the amounts and the estimated cost; costs match the in-game Research tab. Your HQ is found wherever it is, not assumed to be your first base.
+- Terms and Privacy Policy updated for the new command.
+
 ## 3.0.0 — 8 October 2026
 
 **⚠️ Breaking change:** `/repair` is now `/repair wishlist`, with the same options (`base`, `percent`, `duration`).
